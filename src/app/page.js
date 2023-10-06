@@ -16,55 +16,58 @@ export default function Home() {
       <body>
         {/*Title Banner*/}
         <div className={styles.main}>
-            <h1>Title</h1>
+          <h1>Title</h1>
         </div>
         {/*Menu to hold button and button for about me page*/}
         <div className={styles.menu}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
         {/*3x2 Grid for cards*/}
         <div className={styles.grid}>
           <div className="col-md-4">
-            <div class='box box1'>
+            <div class={styles.box}>
               box1
               <Image></Image>
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className='box box2'>
+            <div className={styles.box}>
               box2
               <Image></Image>
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className='box box3'>
+            <div className={styles.box}>
               box3
               <Image></Image>
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className='box box4'>
+            <div className={styles.box}>
               box4
               <Image></Image>
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className='box box5'>
+            <div className={styles.box}>
               box5
               <Image></Image>
             </div>
           </div>
 
           <div className="col-md-4">
-            <div className='box box6'>
+            <div className={styles.box}>
               box6
               <Image></Image>
             </div>
           </div>
+        </div>
+        <div className={styles.bottom}>
+          <p>Bottom stuff</p>
         </div>
       </body>
     </>
