@@ -28,9 +28,9 @@ export default function Home() {
             <div class={styles.box}>
               box1
               <Image 
-                src="/public.stardew.jpg"
-                width={230}
-                height={230}
+                src="/public/sdvchicken.svg"
+                width={200}
+                height={200}
               />
             </div>
           </div>
@@ -38,35 +38,35 @@ export default function Home() {
           <div className="col-md-4">
             <div className={styles.box}>
               box2
-              <Image></Image>
+              <Image/>
             </div>
           </div>
 
           <div className="col-md-4">
             <div className={styles.box}>
               box3
-              <Image></Image>
+              <Image/>
             </div>
           </div>
 
           <div className="col-md-4">
             <div className={styles.box}>
               box4
-              <Image></Image>
+              <Image/>
             </div>
           </div>
 
           <div className="col-md-4">
             <div className={styles.box}>
               box5
-              <Image></Image>
+              <Image/>
             </div>
           </div>
 
           <div className="col-md-4">
             <div className={styles.box}>
               box6
-              <Image></Image>
+              <Image/>
             </div>
           </div>
         </div>
