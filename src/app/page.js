@@ -27,7 +27,11 @@ export default function Home() {
           <div className="col-md-4">
             <div class={styles.box}>
               box1
-              <Image></Image>
+              <Image 
+                src="/public.stardew.jpg"
+                width={230}
+                height={230}
+              />
             </div>
           </div>
 
