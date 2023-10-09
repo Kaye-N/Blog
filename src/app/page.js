@@ -16,7 +16,7 @@ export default function Home() {
       <body>
         {/*Title Banner*/}
         <div className={styles.main}>
-          <h1>Title</h1>
+          <h1>Title Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h1>
         </div>
         {/*Menu to hold button and button for about me page*/}
         <div className={styles.menu}>
@@ -26,19 +26,23 @@ export default function Home() {
         <div className={styles.grid}>
           <div className="col-md-4">
             <div class={styles.box}>
-              box1
-              <Image 
-                src="/public/sdvchicken.svg"
+              <Image
+                src="sdvchicken.svg"
                 width={200}
                 height={200}
+                alt='picture of sdv chicken'
               />
             </div>
           </div>
 
           <div className="col-md-4">
             <div className={styles.box}>
-              box2
-              <Image/>
+              <Image
+                src="phasmo.svg"
+                width={210}
+                height={210}
+                alt='picture phas logo'
+              />
             </div>
           </div>
 
