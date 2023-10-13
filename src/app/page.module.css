@@ -1,18 +1,21 @@
-
-.main{
+.title{
+  flex: auto;
   border: 5px solid;
   margin: 50px;
   width: 90%;
   height: 100px;
   padding: 20px;
-  
-  justify-items: center;
+
+  text-align: center;
 }
 
 .menu{
   border: #495D63;
-  width: auto;
+  width: 1000px;
   height: auto;
+
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .grid{
@@ -60,7 +63,7 @@
 }
 
 .bottom{
-  background-color: #2E282A;
+  background-color: #6d6875;
   color: #F6F2FF;
   height: 80px;
   padding: 15px;

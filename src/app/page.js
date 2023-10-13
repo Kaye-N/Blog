@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Jamie's blog</title>
         <link rel="icon" href="/favicon.ico" />
@@ -15,7 +16,7 @@ export default function Home() {
       </Head>
       <body>
         {/*Title Banner*/}
-        <div className={styles.main}>
+        <div className={styles.title}>
           <h1>Title Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h1>
         </div>
         {/*Menu to hold button and button for about me page*/}
@@ -27,10 +28,10 @@ export default function Home() {
           <div className="col-md-4">
             <div class={styles.box}>
               <Image
-                src="sdvchicken.svg"
-                width={200}
-                height={200}
-                alt='picture of sdv chicken'
+                src="/sdvsitting.jpg"
+                width={210}
+                height={205}
+                alt='sdv art'
               />
             </div>
           </div>
@@ -38,18 +39,22 @@ export default function Home() {
           <div className="col-md-4">
             <div className={styles.box}>
               <Image
-                src="phasmo.svg"
+                src="/phasmophobia.jpg"
                 width={210}
                 height={210}
-                alt='picture phas logo'
+                alt='phasmo art'
               />
             </div>
           </div>
 
           <div className="col-md-4">
             <div className={styles.box}>
-              box3
-              <Image/>
+              <Image
+                src="/animalcrossing.jpg"
+                width={210}
+                height={210}
+                alt='animal crossing art'
+              />
             </div>
           </div>
 
@@ -62,7 +67,6 @@ export default function Home() {
 
           <div className="col-md-4">
             <div className={styles.box}>
-              box5
               <Image/>
             </div>
           </div>
