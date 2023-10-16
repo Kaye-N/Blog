@@ -19,6 +19,10 @@ body {
   overflow-x: hidden;
 }
 
+body{
+  background-image: url("/arcade.jpg");
+}
+
 /*h1{
   save for later when designing banner
 }
@@ -33,7 +37,7 @@ body {
   background-color: black;
   background: #C98CA7;
   border-radius: 5px;
-}
+} 
 
 @media only screen and (min-width:
 768px) {

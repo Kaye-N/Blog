@@ -1,16 +1,18 @@
 .title{
   flex: auto;
-  border: 5px solid;
+  border: 5px solid #b228fc;
   margin: 50px;
   width: 90%;
   height: 100px;
   padding: 20px;
+  background-color: #F5D7E3;
 
   text-align: center;
 }
 
 .menu{
   border: #495D63;
+  background-color: #F5D7E3;
   width: 1000px;
   height: auto;
 
@@ -23,36 +25,33 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 
-  column-gap: 200px;
-  row-gap: 100px;
+  column-gap: 180px;
+  row-gap: 130px;
 
-  max-width: max-content;
-  max-height: max-content;
+  max-width:fit-content;
+  max-height: fit-content;
   margin: 20px auto;
   padding: 20px;
+  align-items: center;
 
-  background-color: #495D63;
+  background-image: url("/gameboy.jpg");
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  justify-items: auto;
-  justify-content: center;
 }
 
 .box{
-  display: flexbox;
+  display: grid;
   flex-wrap: wrap;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 
   column-gap: 5px;
   row-gap: 5px;
-  height: 230px;
-  width: 230px;
-  margin: 0 auto;
-  justify-content: center;
+  height: 260px;
+  width: 260px;
 
-  background-color: #F6F2FF;
-  color: #DCCCFF;
+  background-color: #b228fc;
+  color: #022b3a;
   font-size: 24px;
   border-radius: 3px;
   padding: 10px;
@@ -62,9 +61,13 @@
   overflow: hidden;
 }
 
+.drop{
+  size: inherit;
+}
+
 .bottom{
-  background-color: #6d6875;
-  color: #F6F2FF;
+  background-color: #231e26;
+  color: #e1e5f2;
   height: 80px;
   padding: 15px;
   margin-top: 100px;

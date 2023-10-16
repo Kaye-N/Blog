@@ -29,8 +29,8 @@ export default function Home() {
             <div class={styles.box}>
               <Image
                 src="/sdvsitting.jpg"
-                width={210}
-                height={205}
+                width={239}
+                height={238}
                 alt='sdv art'
               />
             </div>
@@ -40,8 +40,8 @@ export default function Home() {
             <div className={styles.box}>
               <Image
                 src="/phasmophobia.jpg"
-                width={210}
-                height={210}
+                width={239}
+                height={238}
                 alt='phasmo art'
               />
             </div>
@@ -51,8 +51,8 @@ export default function Home() {
             <div className={styles.box}>
               <Image
                 src="/animalcrossing.jpg"
-                width={210}
-                height={210}
+                width={239}
+                height={238}
                 alt='animal crossing art'
               />
             </div>
@@ -60,7 +60,6 @@ export default function Home() {
 
           <div className="col-md-4">
             <div className={styles.box}>
-              box4
               <Image/>
             </div>
           </div>
@@ -73,7 +72,6 @@ export default function Home() {
 
           <div className="col-md-4">
             <div className={styles.box}>
-              box6
               <Image/>
             </div>
           </div>
