@@ -17,9 +17,6 @@ body {
   max-width: 100vw;
   min-height: 100vh;
   overflow-x: hidden;
-}
-
-body{
   background-image: url("/arcade.jpg");
 }
 
@@ -35,7 +32,7 @@ body{
 
 ::-webkit-scrollbar-thumb{
   background-color: black;
-  background: #C98CA7;
+  background: #800080;
   border-radius: 5px;
 } 
 

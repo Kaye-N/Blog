@@ -17,7 +17,7 @@ export default function Home() {
       <body>
         {/*Title Banner*/}
         <div className={styles.title}>
-          <h1>Title Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h1>
+          <h1>Title</h1>
         </div>
         {/*Menu to hold button and button for about me page*/}
         <div className={styles.menu}>
@@ -60,7 +60,12 @@ export default function Home() {
 
           <div className="col-md-4">
             <div className={styles.box}>
-              <Image/>
+              <Image
+              src="/plasticduck.jpg"
+              width={239}
+              height={238}
+              alt='plastic duck'
+              />
             </div>
           </div>
 
@@ -77,7 +82,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.bottom}>
-          <p>Bottom stuff</p>
+          <p>Lorem Ipsum</p>
         </div>
       </body>
     </>
