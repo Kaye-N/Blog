@@ -3,6 +3,7 @@ import React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 import styles from './page.module.css';
+import animation from './animations.css'
 
 export default function Home() {
   return (
@@ -14,10 +15,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/page.module.css" />
       </Head>
-      <body>
+      <body id='bgimage'>
         {/*Title Banner*/}
         <div className={styles.title}>
-          <h1>Title</h1>
+          <h1 id='scrollT'>Welcome! Wowzer! Jamie's Website.</h1>
         </div>
         {/*Menu to hold button and button for about me page*/}
         <div className={styles.menu}>
@@ -71,7 +72,12 @@ export default function Home() {
 
           <div className="col-md-4">
             <div className={styles.box}>
-              <Image/>
+              <Image
+                src="/tetrisicon.jpg"
+                width={239}
+                height={238}
+                alt='tetris'
+              />
             </div>
           </div>
 

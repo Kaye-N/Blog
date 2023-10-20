@@ -1,6 +1,11 @@
+/*#bgimage{
+  this will be for the background image
+}*/
+
 .title{
   flex: auto;
-  border-image: linear-gradient(#800080,#b47eb3, #d197c6) 30;
+  border-image: linear-gradient(#800080,#c054e8, #d197c6) 30;
+  text-shadow: #C585B3 0 0 20px;
   border-width: 4px;
   border-style: solid;
 
@@ -11,26 +16,28 @@
   height: 100px;
   padding: 20px;
 
-  background-color: #022b3a;
+  background-image: url("/menubg.png");
   color: #f6f2ff;
   text-align: center;
 }
 
 .menu{
-  border-image: linear-gradient(#800080,#b47eb3, #d197c6) 30;
-  border: 5px solid;
+  border-image: linear-gradient(#800080,#c054e8,#b47eb3) 30;
+  border-style: solid;
   border-width: 4px;
-  background-color: #022b3a;
+  background-image: url("/menubg.png");
   color: #f6f2ff;
 
   width: 85%;
   height: 150px;
   margin: auto;
 
-  padding-top: 15px;
+  padding: 40px;
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
+
+  box-shadow: 0 0 50px 15px #48abe0;
 }
 
 .grid{
@@ -43,7 +50,7 @@
 
   max-width:fit-content;
   max-height: fit-content;
-  margin: 30px auto;
+  margin: 50px auto;
   padding: 20px;
   align-items: center;
 
@@ -64,7 +71,7 @@
   height: 260px;
   width: 260px;
 
-  background-image: linear-gradient(180deg, #800080,#b47eb3);
+  background-image: linear-gradient(180deg, #800080,#c054e8);
   color: #022b3a;
   font-size: 24px;
   border-radius: 3px;

@@ -1,0 +1,26 @@
+#scrollT{
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-animation: title-animation 17s linear infinite;
+    animation: title-animation 17s linear infinite;
+}
+
+@-webkit-keyframes title-animation{
+    from {-webkit-transform: 
+        translateX(100%);
+    }
+    to{
+        -webkit-transform: translateX(-100%);
+    }
+}
+
+@keyframes title-animation{
+    from{
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    to{
+        -webkit-transform: translateX(-100%);
+        transform:translate(-100%)
+    }
+}
