@@ -6,7 +6,8 @@
 }
 
 @-webkit-keyframes title-animation{
-    from {-webkit-transform: 
+    from {
+        -webkit-transform: 
         translateX(100%);
     }
     to{
@@ -24,3 +25,4 @@
         transform:translate(-100%)
     }
 }
+

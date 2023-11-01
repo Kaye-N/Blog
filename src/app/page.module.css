@@ -29,7 +29,7 @@
   color: #f6f2ff;
 
   width: 85%;
-  height: 150px;
+  height: fit-content;
   margin: auto;
 
   padding: 40px;
@@ -46,7 +46,7 @@
   grid-template-rows: repeat(2, 1fr);
 
   column-gap: 180px;
-  row-gap: 130px;
+  row-gap: 55px;
 
   max-width:fit-content;
   max-height: fit-content;
@@ -74,7 +74,7 @@
   background-image: linear-gradient(180deg, #800080,#c054e8);
   color: #022b3a;
   font-size: 24px;
-  border-radius: 3px;
+  border-radius: 3px 3px 0px 0px;
   padding: 10px;
 
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
@@ -82,12 +82,60 @@
   overflow: hidden;
 }
 
+.bottomC{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+  column-gap: 5px;
+  row-gap: 5px;
+  height: 100px;
+  width: 260px;
+
+  background-color: #eb6afc;
+  color: #022b3a;
+  font-size: 24px;
+
+  border-radius: 0px 0px 3px 3px;
+  padding: 10px 10px;
+
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 10px 12px -6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.AMbutton{
+  background-color: inherit;
+  color: #e1e5f2;
+  border: none;
+
+  transition: 0.3s;
+  align-items: center;
+  position:center;
+
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 12px 30px;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+
+.AMbutton:hover{
+  background-image: inherit;
+  color: #E1D9D1;
+  text-shadow: white 0 0 20px;
+
+  -webkit-box-shadow: 0 0 3px rgba(139, 53, 173, 0.836);
+  box-shadow: 0px 0px 30px 5px rgba(77, 52, 189, 0.856);
+}
+
 .bottom{
   background-color: #341d38;
   color: #e1e5f2;
+
   height: 80px;
   padding: 15px;
   margin-top: 80px;
 
-
 }
+
