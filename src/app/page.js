@@ -1,10 +1,8 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from './page.module.css';
-import animation from './animations.css'
 import layout from './homepage.js'
 
 export default function Home() {
