@@ -9,7 +9,7 @@ import layout from './homepage.js'
 export default function Home() {
   return (
     <>
-      <Head>
+      <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Jamie's blog</title>
@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="stylesheet" href="/page.module.css" />
 
         <script src='homepage.js'/>
-      </Head>
+      </head>
       <body >
         {/*Title Banner*/}
         <div className={styles.title}>

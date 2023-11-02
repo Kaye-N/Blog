@@ -1,3 +1,5 @@
+import React, {useEffect } from "react";
+
 /*Title Regulator*/
 const titles = {
     bannerTitle: {
@@ -8,7 +10,7 @@ const titles = {
 
 
 /*Fetch HTTP Cat API*/
-const url = 'https://http.cat/[status_code]';
+const url = 'https://http.cat/';
 
 /* Get status */
 async function getStatus() {
@@ -16,7 +18,8 @@ async function getStatus() {
     const statusNum = response.status;
     console.log('Status:', statusNum);
     return statusNum;
-  } catch (error) {
+  } 
+  catch (error) {
     console.error('Error:', error);
     return null;
   }
@@ -31,15 +34,13 @@ async function checker() {
         if (x === status){
             console.log(`Error: HTTP Status ${status}`);
             const img = document.createElement('img');
-            img.src = url;
+            img.src = url + statusNum.toString() + '.jpg';
+            console.log(img.toString());
             document.body.appendChild(img);
-        }
-        else{
-            console.log('Error')
         }
     }
 
 }
 }
 
-checker(); // Call the checker function to initiate the process.
+/*Main*/
