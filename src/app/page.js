@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import React from 'react';
 import Image from 'next/image';
 import Head from 'next/head';
