@@ -18,7 +18,7 @@ async function getStatus() {
     const statusNum = response.status;
     console.log('Status:', statusNum);
     return statusNum;
-  } 
+  }
   catch (error) {
     console.error('Error:', error);
     return null;
