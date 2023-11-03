@@ -1,4 +1,6 @@
-import React, {useEffect} from "react";
+'use client'
+
+/*import React, {useEffect} from "react";
 
 /*Fetch HTTP Cat API*/
 const url = 'https://http.cat/';
@@ -25,16 +27,14 @@ function catAPI() {
         // Display the cat image
         for (let x = 100; x < 600; x++) {
           if (x === status) {
-            console.log(`Error: HTTP Status ${status}`);
-            const img = document.createElement('img');
-            img.src = `${url}${status}.jpg`;
-            document.body.appendChild(img);
+                fetch(`${url}${x}.jpg`)
+                console.log(`Error: HTTP Status ${status}`);
+                const img = document.createElement('img');
+                img.src = `${url}${status}.jpg`;
+                document.body.appendChild(img);
           }
         }
       }
     }
-
     checker();
   }, [])};
-
-/*Main*/
