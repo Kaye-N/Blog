@@ -17,7 +17,7 @@ export default function Home() {
 
         <script src='homepage.js'/>
       </head>
-      <body >
+      <body>
         {/*Title Banner*/}
         <div className={styles.title}>
           <h1 id='scrollT'>Welcome to Jamie's Reviews</h1>
