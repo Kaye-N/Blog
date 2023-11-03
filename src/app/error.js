@@ -1,14 +1,5 @@
 import React, {useEffect} from "react";
 
-/*Title Regulator*/
-const titles = {
-  bannerTitle: {
-    textShadow: '0 0 20px #C585B3',
-  }
-
-}
-
-
 /*Fetch HTTP Cat API*/
 const url = 'https://http.cat/';
 
