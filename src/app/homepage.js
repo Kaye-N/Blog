@@ -26,7 +26,8 @@ async function getStatus() {
 }
 
 /* Check status for Error */
-async function checker() {
+useEffect(()=> {
+  async function checker() {
   const status = await getStatus();
   if (status != 200) {
     //Display the cat image
@@ -39,8 +40,8 @@ async function checker() {
             document.body.appendChild(img);
         }
     }
-
+  }
 }
-}
+})
 
 /*Main*/
