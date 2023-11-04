@@ -3,23 +3,18 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
 import layout from './homepage.js';
-import animation from './animations.css';
 
 export default function Home() {
   return (
     <>
       <head>
         <title>Jamie's blog</title>
-        <meta name="application-name" content="Next.js" />
-        <link rel="author" href="https://Bonniefied.com" />
-
 
         <meta description = 'Blogsite for personal use'/>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/page.module.css" />
-        <link rel= "animation" href="animation.css"/>
 
         <script src='homepage.js'/>
       </head>
