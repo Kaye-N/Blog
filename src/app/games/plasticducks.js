@@ -1,8 +1,5 @@
-import Head from "next/head";
 import React from 'react';
 import Image from 'next/image';
-import Head from 'next/head';
-
 
 const plasticduck = () => {
     return (

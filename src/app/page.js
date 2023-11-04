@@ -2,18 +2,24 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
-import layout from './homepage.js'
+import layout from './homepage.js';
+import animation from './animations.css';
 
 export default function Home() {
   return (
     <>
       <head>
         <title>Jamie's blog</title>
+        <meta name="application-name" content="Next.js" />
+        <link rel="author" href="https://Bonniefied.com" />
+
+
         <meta description = 'Blogsite for personal use'/>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="/page.module.css" />
+        <link rel= "animation" href="animation.css"/>
 
         <script src='homepage.js'/>
       </head>
@@ -84,12 +90,13 @@ export default function Home() {
                 alt='plastic duck'
               />
             </div>
-            <div className={styles.bottomC} id='ducks'>
-              <h3>
-                Plastic Placid Ducks
-                <Link style= {layout.bannerTitle} href="src\app\games\plasticducks.js">You like floating?</Link>
-              </h3>
-            </div>
+            <Link style= {layout.bannerTitle} href="src\app\games\plasticducks.js">
+              <div className={styles.bottomC} id='ducks'>
+                <h3>
+                  Plastic Placid Ducks
+                </h3>
+              </div>
+            </Link>
           </div>
           <div className="col-md-4">
             <div className={styles.box}>
