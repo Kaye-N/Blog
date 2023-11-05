@@ -1,7 +1,10 @@
 import './globals.css';
-import { Inter } from 'next/fonts'; // Import the correct package
+import {Montserrat} from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] });
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: "Bonnified Reviews",
@@ -15,3 +18,12 @@ export const metadata = {
     },
   ],
 };
+
+export default function RootLayout({ children }) {
+  return (
+    // 👇 Attach font to global JSX node
+    <html lang="en" className={montserrat.className}>
+      <body>{children}</body>
+    </html>
+  )
+}
