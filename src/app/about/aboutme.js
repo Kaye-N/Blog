@@ -2,9 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
-import layout from './homepage.js';
+import layout from '../homepage.js';
 
-export default function AboutMe() {
+export default function About() {
   return (
     <>
         <title>Jamie's blog</title>
@@ -20,7 +20,8 @@ export default function AboutMe() {
         <script src='homepage.js'/>
       <body>
         <div>
-
+          <h1>About Me</h1>
+          <Link href='/'>About me</Link>
         </div>
       </body>
     </>

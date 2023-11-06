@@ -24,7 +24,7 @@ function catAPI() {
     async function checker() {
       const status = await getStatus();
       if (status !== 200) {
-        // Display the cat image
+        // try display the cat image
         for (let x = 100; x < 600; x++) {
           if (x === status) {
                 fetch(`${url}${x}.jpg`)

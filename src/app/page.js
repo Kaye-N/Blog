@@ -91,9 +91,9 @@ export default function Page() {
             </div>
             <Link style= {layout.bannerTitle} href="\games\plasticducks.js">
               <div className={styles.bottomC} id='ducks'>
-                <h3>
+                <h4>
                   Plastic Placid Ducks
-                </h3>
+                </h4>
               </div>
             </Link>
           </div>
@@ -120,7 +120,7 @@ export default function Page() {
               />
             </div>
             <div className={styles.bottomC} id='game'>
-              placeholder
+            <h3>Placeholder</h3>
             </div>
           </div>
         </div>
