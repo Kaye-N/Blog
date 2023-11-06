@@ -35,7 +35,7 @@ export default function Page() {
           <br/>
           <button className={styles.AMbutton}>
             <h5>
-             <Link href="aboutme.js">About Me</Link>
+             <Link href="/about">About Me</Link>
             </h5>
           </button>
         </div>
@@ -89,7 +89,7 @@ export default function Page() {
                 alt='plastic duck'
               />
             </div>
-            <Link style= {layout.bannerTitle} href="\games\plasticducks.js">
+            <Link style= {layout.bannerTitle} href="/games">
               <div className={styles.bottomC} id='ducks'>
                 <h4>
                   Plastic Placid Ducks
