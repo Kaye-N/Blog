@@ -36,11 +36,13 @@ export default function Page() {
           have give hours of my time to just because... I like them. If you're more curious about me
           you can go to my About Me!
           <br/>
+          <Link href="/about">
           <button className={styles.AMbutton}>
             <h5>
-             <Link href="/about/page.js"> About Me</Link>
+              About Me
             </h5>
           </button>
+          </Link>
         </div>
         {/*3x2 Grid for cards*/}
         <div className={styles.grid}>
@@ -92,7 +94,7 @@ export default function Page() {
                 alt='plastic duck'
               />
             </div>
-            <Link style= {layout.bannerTitle} href="/games">
+            <Link style= {layout.bannerTitle} href="/placidplasticducks">
               <div className={styles.bottomC} id='ducks'>
                 <h3>Plastic Placid Ducks</h3>
               </div>

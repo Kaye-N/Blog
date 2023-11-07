@@ -1,4 +1,4 @@
-import {Montserrat} from 'next/font/google'
+import {Montserrat, Montserrat_Subrayada} from 'next/font/google'
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     // 👇 Attach font to global JSX node
     <html lang="en" className={montserrat.className}>
-      <body>{children}</body>
+      <body className={montserrat.className}>{children}</body>
     </html>
   )
 }

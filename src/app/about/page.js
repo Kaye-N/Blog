@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import styles from './page.module.css';
 
 export default function About() {
   return (
@@ -13,9 +14,14 @@ export default function About() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico"/>
       <body>
-        <div>
+        <div className={styles.homeButton}>
           <h1>About Me</h1>
-          <Link href="/about/page.js">About me</Link>
+        </div>
+        <div>
+
+        </div>
+        <div>
+          <h1>Home</h1>
         </div>
       </body>
     </>
