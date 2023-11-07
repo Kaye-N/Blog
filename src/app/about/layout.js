@@ -1,5 +1,5 @@
 import {Montserrat} from 'next/font/google'
-import { Footer } from 'tamagui';
+
 
 const montserrat = Montserrat({
   subsets: ['latin'],

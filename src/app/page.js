@@ -28,13 +28,13 @@ export default function Page() {
       <body>
         {/*Title Banner*/}
         <div className={styles.title}>
-          <h1 id='scrollT'>Welcome to Jamie's Reviews</h1>
+          <h1 id='scrollT'>Welcome to BonnieRev!          Bonnified Reviews</h1>
         </div>
         {/*Menu to hold button and button for about me page*/}
         <div className={styles.menu}>
           Welcome to the homepage of my game reviews! Below are games that I
           have give hours of my time to just because... I like them. If you're more curious about me
-          you can go to my About Me!
+          you can go to my About Section!
           <br/>
           <Link href="/about">
           <button className={styles.AMbutton}>
@@ -116,19 +116,16 @@ export default function Page() {
           <div className="col-md-4">
             <div className={styles.box}>
               <Image
-                src=""
+                src="/musedash.jpg"
                 width={239}
                 height={238}
-                alt='' 
+                alt='Muse Dash ' 
               />
             </div>
             <div className={styles.bottomC} id='game'>
             <h3>Placeholder</h3>
             </div>
           </div>
-        </div>
-        <div className={styles.bottom}>
-          <p>Lorem Ipsum</p>
         </div>
       </body>
     </>
