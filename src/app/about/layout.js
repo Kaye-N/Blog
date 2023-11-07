@@ -8,17 +8,9 @@ const montserrat = Montserrat({
 export const metadata = {
   title: "Bonnified Reviews",
   description: "Created for Web Dev Class",
-  icons: [
-    {
-      rel: 'icon',
-      href: '/favicon.ico',
-      sizes: '32x32',
-      type: 'image/x-icon',
-    },
-  ],
 };
 
-export default function RootLayout({ children }) {
+export default function AboutLayout({ children }) {
   return (
     // 👇 Attach font to global JSX node
     <html lang="en" className={montserrat.className}>

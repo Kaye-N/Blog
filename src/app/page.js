@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './page.module.css';
 import layout from './homepage.js';
+import animations from './animations.css'
 
 export const metadata = {
   title: 'My Page Title',
@@ -37,7 +38,7 @@ export default function Page() {
           <br/>
           <button className={styles.AMbutton}>
             <h5>
-             <Link href="/about">About Me</Link>
+             <Link href="/about/page.js"> About Me</Link>
             </h5>
           </button>
         </div>
@@ -93,7 +94,7 @@ export default function Page() {
             </div>
             <Link style= {layout.bannerTitle} href="/games">
               <div className={styles.bottomC} id='ducks'>
-                <h3><Link href="/placidplasticducks">Plastic Placid Ducks</Link></h3>
+                <h3>Plastic Placid Ducks</h3>
               </div>
             </Link>
           </div>

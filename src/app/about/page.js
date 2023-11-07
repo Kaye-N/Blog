@@ -1,7 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
 
-
 export default function About() {
   return (
     <>
@@ -16,7 +15,7 @@ export default function About() {
       <body>
         <div>
           <h1>About Me</h1>
-          <Link href='/about'>About me</Link>
+          <Link href="/about/page.js">About me</Link>
         </div>
       </body>
     </>
