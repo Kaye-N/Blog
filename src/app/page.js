@@ -1,3 +1,4 @@
+import './globals.css';
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -20,6 +21,7 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico"/>
         <link rel="stylesheet" href="/page.module.css" />
+        <link rel="about page" href='/about'/>
 
         <script src='homepage.js'/>
       <body>
@@ -91,9 +93,7 @@ export default function Page() {
             </div>
             <Link style= {layout.bannerTitle} href="/games">
               <div className={styles.bottomC} id='ducks'>
-                <h4>
-                  Plastic Placid Ducks
-                </h4>
+                <h3><Link href="/placidplasticducks">Plastic Placid Ducks</Link></h3>
               </div>
             </Link>
           </div>
