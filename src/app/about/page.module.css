@@ -17,3 +17,18 @@
 
     box-shadow: 0 0 50px 15px #48abe0;
 }
+
+.bottom{
+    background-color: #341d38;
+    color: #e1e5f2;
+  
+    height: 80px;
+    padding: 15px;
+    margin-top: 80px;
+  
+  }
+  
+  .bottom p {
+    margin: auto;
+    justify-content: space-between;
+  }

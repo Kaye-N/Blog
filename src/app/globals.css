@@ -21,10 +21,24 @@ body {
 
 }
 
-/*h1{
-  save for later when designing banner
+#container{
+  position: relative;
+
 }
-*/
+
+#content-wrap {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+
+footer{
+  background-color: #341d38;
+  color: #e1e5f2;
+
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  height: 4rem;
+}
 
 ::-webkit-scrollbar{
   background-color: #E0DDCF;
