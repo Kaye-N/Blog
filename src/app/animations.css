@@ -1,4 +1,5 @@
 #scrollT{
+    align-items: center;
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     -webkit-animation: title-animation 17s linear infinite;

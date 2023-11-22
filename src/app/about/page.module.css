@@ -1,3 +1,7 @@
+#background{
+  background-image: url("/arcade.jpg");
+}
+
 .homeButton{
     border-image: linear-gradient(#800080,#c054e8,#b47eb3) 30;
     border-style: solid;

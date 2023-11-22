@@ -6,10 +6,6 @@ import styles from './page.module.css';
 import layout from './homepage.js';
 import animations from './animations.css'
 
-export const metadata = {
-  title: 'My Page Title',
-}
-
 export default function Page() {
   return (
     <>
@@ -25,12 +21,10 @@ export default function Page() {
         <link rel="about page" href='/about'/>
 
         <script src='homepage.js'/>
-      <body>
-        <div id='container'>
-          <div id='content-wrap'>
-                {/*Title Banner*/}
+      <body id='background'>
+            {/*Title Banner*/}
             <div className={styles.title}>
-              <h1 id='scrollT'>Welcome to BonnieRev!          Bonnified Reviews</h1>
+              <h1 id='scrollT'>Welcome to BonnieRev! Bonnified Reviews</h1>
             </div>
             {/*Menu to hold button and button for about me page*/}
             <div className={styles.menu}>
@@ -41,11 +35,11 @@ export default function Page() {
               </p>
               <br/>
               <Link href="/about">
-              <button className={styles.AMbutton}>
-                <h2>
-                  About Me
-                </h2>
-              </button>
+                <button className={styles.AMbutton}>
+                  <h2>
+                    About Me
+                  </h2>
+                </button>
               </Link>
             </div>
             {/*3x2 Grid for cards*/}
@@ -137,7 +131,7 @@ export default function Page() {
                   <div className="container p-4">
                         <div className="row">
                             <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-                                <h5 className="text-uppercase">Welcome to the bottom of the page</h5>
+                                <h5>Welcome to the bottom of the page</h5>
                                 <p>
                                   <Link href="/">Home</Link> <Link href="/about">About Me</Link>
                                 </p>
@@ -150,8 +144,6 @@ export default function Page() {
                 </div>
               </div>
             </footer>
-          </div>
-        </div>
       </body>
     </>
   );

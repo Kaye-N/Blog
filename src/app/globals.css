@@ -14,40 +14,35 @@
 
 html,
 body {
-  max-width: 100vw;
-  min-height: 100vh;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
-  background-image: url("/arcade.jpg");
 
-}
+  background-color: #341061;
 
-#container{
-  position: relative;
-
-}
-
-#content-wrap {
-  padding-bottom: 2.5rem; /* Footer height */
 }
 
 footer{
   background-color: #341d38;
   color: #e1e5f2;
 
-  position: absolute;
-  padding: 10px;
-  width: 100%;
-  height: 4rem;
+  margin-top: 2rem;
+  padding: 12px;
+}
+
+Link{
+  text-decoration: none;
 }
 
 ::-webkit-scrollbar{
-  background-color: #E0DDCF;
+  background-color: #341061;
   width: 10px;
 }
 
 ::-webkit-scrollbar-thumb{
   background-color: black;
-  background: #800080;
+  background: #660a66;
   border-radius: 5px;
 } 
 
