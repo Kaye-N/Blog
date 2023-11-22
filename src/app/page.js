@@ -45,17 +45,19 @@ export default function Page() {
             {/*3x2 Grid for cards*/}
             <div className={styles.grid}>
               <div className="col-md-4">
-                <div className={styles.box}>
-                  <Image
-                    src="/sdvsitting.jpg"
-                    width={239}
-                    height={238}
-                    alt='sdv art'
-                  />
-                </div>
-                <div className={styles.bottomC} id="sdv">
-                  <h3>Stardew Valley</h3>
-                </div>
+                <Link href='/stardewvalley'>
+                  <div className={styles.box}>
+                    <Image
+                      src="/sdvsitting.jpg"
+                      width={239}
+                      height={238}
+                      alt='sdv art'
+                    />
+                  </div>
+                  <div className={styles.bottomC} id="sdv">
+                    <h4>Stardew Valley</h4>
+                  </div>
+                </Link>
               </div>
               <div className="col-md-4">
                 <div className={styles.box}>
@@ -67,7 +69,7 @@ export default function Page() {
                   />
                 </div>
                 <div className={styles.bottomC} id='phasmo'>
-                  <h3>Phasmophobia</h3>
+                  <h4>Phasmophobia</h4>
                 </div>
               </div>
               <div className="col-md-4">
@@ -80,10 +82,11 @@ export default function Page() {
                   />
                 </div>
                 <div className={styles.bottomC} id="animals">
-                  <h3>Animal Crossing</h3>
+                  <h4>Animal Crossing</h4>
                 </div>
               </div>
               <div className="col-md-4">
+              <Link href="/placidplasticducks">
                 <div className={styles.box}>
                   <Image
                     src="/plasticduck.jpg"
@@ -92,9 +95,8 @@ export default function Page() {
                     alt='plastic duck'
                   />
                 </div>
-                <Link href="/placidplasticducks">
                   <div className={styles.bottomC} id='ducks'>
-                    <h3>Plastic Placid Ducks</h3>
+                    <h4>Plastic Placid Ducks</h4>
                   </div>
                 </Link>
               </div>
@@ -108,7 +110,7 @@ export default function Page() {
                   />
                 </div>
                 <div className={styles.bottomC} id='tetris'>
-                  <h3>Tetris</h3>
+                  <h4>Tetris</h4>
                 </div>
               </div>
               <div className="col-md-4">
@@ -121,7 +123,7 @@ export default function Page() {
                   />
                 </div>
                 <div className={styles.bottomC} id='game'>
-                <h3>Muse Dash</h3>
+                <h4>Muse Dash</h4>
                 </div>
               </div>
             </div>
