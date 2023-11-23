@@ -24,7 +24,7 @@ export default function Page() {
       <body id='background'>
             {/*Title Banner*/}
             <div className={styles.title}>
-              <h1 id='scrollT'>Welcome to BonnieRev! Bonnified Reviews</h1>
+              <h1 id='scrollT'>This is not a Drill! &nbsp;&nbsp;&nbsp; Someone is actually here!</h1>
             </div>
             <div className={styles.gradient}>
             </div>
@@ -58,7 +58,7 @@ export default function Page() {
                     />
                   </div>
                   <div className={styles.bottomC} id="sdv">
-                    <h4>Stardew Valley</h4>
+                    <h4>Stardew&nbsp;Valley</h4>
                   </div>
                 </Link>
               </div>
@@ -85,7 +85,7 @@ export default function Page() {
                   />
                 </div>
                 <div className={styles.bottomC} id="animals">
-                  <h4>Animal Crossing</h4>
+                  <h4>Animal&nbsp;Crossing</h4>
                 </div>
               </div>
               <div className="col-md-4">
@@ -99,7 +99,7 @@ export default function Page() {
                   />
                 </div>
                   <div className={styles.bottomC} id='ducks'>
-                    <h4>Plastic Placid Ducks</h4>
+                    <h4>Plastic&nbsp;Placid Ducks</h4>
                   </div>
                 </Link>
               </div>
@@ -126,7 +126,7 @@ export default function Page() {
                   />
                 </div>
                 <div className={styles.bottomC} id='game'>
-                <h4>Muse Dash</h4>
+                <h4>Muse&nbsp;Dash</h4>
                 </div>
               </div>
             </div>
