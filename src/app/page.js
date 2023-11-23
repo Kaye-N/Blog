@@ -26,6 +26,8 @@ export default function Page() {
             <div className={styles.title}>
               <h1 id='scrollT'>Welcome to BonnieRev! Bonnified Reviews</h1>
             </div>
+            <div className={styles.gradient}>
+            </div>
             {/*Menu to hold button and button for about me page*/}
             <div className={styles.menu}>
               <p>
@@ -42,6 +44,7 @@ export default function Page() {
                 </button>
               </Link>
             </div>
+            
             {/*3x2 Grid for cards*/}
             <div className={styles.grid}>
               <div className="col-md-4">
