@@ -12,7 +12,7 @@ export const metadata = {
   description: "Created for Web Dev Class",
 };
 
-export default function DucksLayout({ children }) {
+export default function StardewLayout({ children }) {
   return (
     // 👇 Attach font to global JSX node
     <html lang="en" className={montserrat.className}>

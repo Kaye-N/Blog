@@ -14,10 +14,6 @@
   
 }
 
-#scrollT{
-  z-index: +1;
-}
-
 .gradient{
   background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(45, 29, 141) 40%, #341061 75%, #341061 100%) repeat scroll 0 0;
   position: relative;
@@ -30,6 +26,9 @@
   border-style: solid;
   border-width: 4px;
   background-image: url("/menubg.png");
+
+  font-weight: 500;
+  font-size: large;
   color: #f6f2ff;
 
   width: 85%;

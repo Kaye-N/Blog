@@ -30,11 +30,11 @@ export default function Page() {
             </div>
             {/*Menu to hold button and button for about me page*/}
             <div className={styles.menu}>
-              <p>
-                Welcome to the homepage of my game reviews! Below are games that I
-                have give hours of my time to just because... I like them. If you're more curious about me
-                you can go to my About Section!
-              </p>
+                <p>
+                  Welcome to the homepage of my game reviews! Below are games that I
+                  have give hours of my time to just because... I like them. If you're more curious about me
+                  you can go to my About Section!
+                </p>
               <br/>
               <Link href="/about">
                 <button className={styles.AMbutton}>
@@ -101,7 +101,7 @@ export default function Page() {
                   <div className={styles.bottomC} id='ducks'>
                     <h4>Plastic&nbsp;Placid Ducks</h4>
                   </div>
-                </Link>
+              </Link>
               </div>
               <div className="col-md-4">
                 <div className={styles.box}>

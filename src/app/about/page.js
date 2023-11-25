@@ -10,16 +10,12 @@ export default function About() {
         <meta name="application-name" content="Next.js" />
         <link rel="author" href="https://Bonniefied.com/aboutme" />
         <meta description = 'Blogsite for personal use'/>
-
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico"/>
       <body id='background'>
             <div className={styles.homeButton}>
           <h1>About Me</h1>
-        </div>
-        <div>
-
         </div>
         <div>
           <h1>Home</h1>
