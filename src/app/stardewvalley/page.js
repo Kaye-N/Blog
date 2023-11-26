@@ -17,17 +17,6 @@ export default function StardewValley() {
       <body>
         <div className={style.boxDecor}>
           <div id='bannerBG'>
-            <Image>
-              
-            </Image>
-          </div>
-          <div id='icon'>
-            <Image
-              src='/sdvicon.png'
-              width={120}
-              height={120}
-              alt='stardew icon'
-            />
           </div>
         </div>
         <div id='gradient'>
@@ -62,6 +51,16 @@ export default function StardewValley() {
                 alt='stardew gameplay image'
               />
             </div>
+            <h4>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus. Consectetur lorem donec massa sapien faucibus et. Felis eget nunc lobortis mattis aliquam faucibus purus in massa.
+                Ut tristique et egestas quis ipsum suspendisse ultrices gravida dictum. Varius morbi enim nunc faucibus a pellentesque sit. Facilisi cras fermentum odio eu. Et netus et malesuada fames. Ut ornare lectus sit amet est placerat in egestas. Feugiat in ante metus dictum at tempor commodo ullamcorper.
+                Sagittis vitae et leo duis ut diam quam nulla. Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Cras tincidunt lobortis feugiat vivamus. Non diam phasellus vestibulum lorem sed risus ultricies.
+                Massa tempor nec feugiat nisl pretium fusce id. In ornare quam viverra orci sagittis eu volutpat. Nunc id cursus metus aliquam eleifend mi in. Nunc faucibus a pellentesque sit amet porttitor eget. Erat velit scelerisque in dictum non consectetur.
+                Ac orci phasellus egestas tellus. Purus non enim praesent elementum.
+              </h4>
+          </div>
+          <div id='boxBG' className={style.boxDecor}>
+
           </div>
         <footer>
           <div id='footerBG'>

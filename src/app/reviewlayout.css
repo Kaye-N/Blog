@@ -1,16 +1,20 @@
 /*This is the global css for review pages*/
 
-#icon {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-}
-
 #gradient {
     background: rgba(255, 255, 255, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgb(45, 29, 141) 40%, #341061 75%, #341061 100%) repeat scroll 0 0;
     position: relative;
     margin-top: -200px;
     height: 300px;
+}
+
+#bannerBG {
+    width: 100%;
+    height: 160px;
+    padding: 3%;
+
+    background-image: url("/menubg.png");
+    color: #f6f2ff;
+    text-shadow: #C585B3 0 0 20px;
 }
 
 #title {
@@ -34,7 +38,7 @@
     background-color: rgb(250, 243, 215);
     position: relative;
     align-content: center;
-    margin: 100px auto;
+    margin: 1rem auto;
     border-radius: 3%;
 
     max-width: 50%;
@@ -45,5 +49,6 @@
 
 
 .boxDecor {
+    border: 4px solid;
     border-image: linear-gradient(#800080, #c054e8, #b47eb3) 30;
 }
