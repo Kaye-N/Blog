@@ -51,7 +51,7 @@ export default function Page() {
                 <Link href='/stardewvalley'>
                   <div className={styles.box}>
                     <Image
-                      src="/sdvsitting.jpg"
+                      src="/sdvhome.png"
                       width={239}
                       height={238}
                       alt='sdv art'
