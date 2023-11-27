@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import style from '../reviewlayout.css'
 
-export default function Tetris() {
+export default function AnimalCrossing() {
   return (
     <>
       <title>Jamie's blog</title>

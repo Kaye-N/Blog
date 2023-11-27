@@ -12,7 +12,7 @@ export const metadata = {
   description: "Created for Web Dev Class",
 };
 
-export default function TetrisLayout({ children }) {
+export default function AnimalCrossingLayout({ children }) {
   return (
     // 👇 Attach font to global JSX node
     <html lang="en" className={montserrat.className}>

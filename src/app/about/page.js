@@ -34,7 +34,6 @@ export default function About() {
           </p> <br></br><br></br>
           <p>⊹˚₊‧───────────────‧₊˚⊹⊹˚₊‧───────────────‧₊˚⊹</p>
         </div>
-
         <footer>
           <div>
             <div className="container p-4">
