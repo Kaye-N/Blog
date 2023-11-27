@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import style from '../reviewlayout.css'
 
-export default function StardewValley() {
+export default function Tetris() {
   return (
     <>
       <title>Jamie's blog</title>

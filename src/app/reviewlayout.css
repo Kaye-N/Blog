@@ -23,23 +23,21 @@
 }
 
 #hero {
-    position: relative;
     margin: 1rem;
     padding: 3rem 0 4rem 0;
+    display: flex;
 }
 
 #gameplay {
-    position: relative;
     margin: 1rem 0 0 2.3rem;
     padding: 3rem 0 4rem 0;
 }
 
 #boxBG {
-    background-color: rgb(250, 243, 215);
-    position: relative;
+    background-color: white;
     align-content: center;
     margin: 1rem auto;
-    border-radius: 3%;
+    border-radius: 2%;
 
     max-width: 50%;
     min-height: max-content;
@@ -47,8 +45,31 @@
 
 }
 
+#bottomBox {
+    background-color: white;
+    position: relative;
+    align-content: center;
+    margin: 100px auto 30px auto;
+
+    max-width: 90%;
+    max-height: 600px;
+    padding: 1.5rem;
+}
+
+.paragraph {
+    line-height: 1.5;
+}
 
 .boxDecor {
     border: 4px solid;
     border-image: linear-gradient(#800080, #c054e8, #b47eb3) 30;
+}
+
+#gameplay{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 100%;
+    max-height: auto;
+    
 }
