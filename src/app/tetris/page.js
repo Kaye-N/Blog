@@ -25,7 +25,7 @@ export default function Tetris() {
         <div id='boxBG' className={style.boxDecor}>
           <div id='hero'>
             <Image
-              src='/sdvsitting.jpg'
+              src='/tetriseffecthero.jpg'
               width={840}
               height={400}
               style={style.images}
@@ -45,7 +45,7 @@ export default function Tetris() {
             </h4>
             <div id='gameplay'>
               <Image
-                src='/sdvgame.png'
+                src='/tetrisgame.jpg'
                 width={800}
                 height={400}
                 alt='stardew gameplay image'
