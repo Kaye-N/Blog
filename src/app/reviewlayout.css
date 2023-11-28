@@ -53,6 +53,10 @@
     padding: 1.5rem;
 }
 
+#bottomBox p{
+    text-decoration: none;
+}
+
 #flex{
     display: flex;
     align-content: space-between;

@@ -36,7 +36,7 @@ export default function MuseDash() {
             />
           </div>
           <div id='title'>
-            <h1>Stardew Valley</h1>
+            <h1>Muse Dash</h1>
           </div>
           <div className={style.paragraph}>
             <h4>
