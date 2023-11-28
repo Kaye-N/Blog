@@ -1,6 +1,8 @@
 import '../globals.css';
+import Image from 'next/image';
 import React from 'react';
 import Link from 'next/link';
+import style from '../reviewlayout.css'
 
 export default function PlasticDucks() {
     return (
@@ -34,7 +36,7 @@ export default function PlasticDucks() {
             />
           </div>
           <div id='title'>
-            <h1>Stardew Valley</h1>
+            <h1>Plastic Placid Ducks</h1>
           </div>
           <div className={style.paragraph}>
             <h4>
@@ -44,7 +46,7 @@ export default function PlasticDucks() {
             </h4>
             <div id='hero'>
               <Image
-                src='/sdvgame.png'
+                src='/specialducks.jpg'
                 width={880}
                 height={450}
                 alt='stardew gameplay image'
@@ -77,7 +79,7 @@ export default function PlasticDucks() {
             </div>
             <div id='hero'>
               <Image
-                src='/stardewgame.jpg'
+                src='/floatyducks.png'
                 width={880}
                 height={450}
                 alt='stardew gameplay image'

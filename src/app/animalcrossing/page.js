@@ -28,15 +28,15 @@ export default function AnimalCrossing() {
           </div>
           <div id='hero'>
             <Image
-              src='/sdvsitting.jpg'
+              src='/animalhero.jpg'
               width={850}
               height={450}
               style={style.images}
-              alt='stardew top image'
+              alt='animal crossing top image'
             />
           </div>
           <div id='title'>
-            <h1>Stardew Valley</h1>
+            <h1>Animal Crossing</h1>
           </div>
           <div className={style.paragraph}>
             <h4>
@@ -46,10 +46,10 @@ export default function AnimalCrossing() {
             </h4>
             <div id='hero'>
               <Image
-                src='/sdvgame.png'
+                src='/sadanimal.jpg'
                 width={880}
                 height={450}
-                alt='stardew gameplay image'
+                alt='animal crossing gameplay image'
               />
             </div>
             <div className={style.paragraph}>
@@ -79,7 +79,7 @@ export default function AnimalCrossing() {
             </div>
             <div id='hero'>
               <Image
-                src='/stardewgame.jpg'
+                src='/turnip.jpg'
                 width={880}
                 height={450}
                 alt='stardew gameplay image'
