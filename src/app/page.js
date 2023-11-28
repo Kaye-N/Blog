@@ -5,6 +5,7 @@ import Link from 'next/link';
 import styles from './page.module.css';
 import layout from './homepage.js';
 import animations from './animations.css'
+import { Bold } from 'react-feather';
 
 export default function Page() {
   return (
@@ -24,15 +25,16 @@ export default function Page() {
       <body id='background'>
         {/*Title Banner*/}
         <div className={styles.title}>
-          <h1 id='scrollT'>This is not a Drill! &nbsp;&nbsp;&nbsp; Someone is actually here!</h1>
+          <h1 id='scrollT'>Follow me on instagram! &nbsp;&nbsp;•&nbsp;&nbsp; Check my discord! &nbsp;&nbsp;•&nbsp;&nbsp; Follow my Twitter!</h1>
         </div>
         <div className={styles.gradient}>
         </div>
         {/*Menu to hold button and button for about me page*/}
         <div className={styles.menu}>
           <p>
-            Welcome to the homepage of my game reviews! Below are games that I
-            have give hours of my time to just because... I like them. If you're more curious about me
+            Below are games that I
+            have given hours of my time to because they peaked my interest and fueled my gaming addiction. 
+            If you're more curious about me
             you can go to my About Section!
           </p>
           <br />
