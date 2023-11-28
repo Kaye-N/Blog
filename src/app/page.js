@@ -5,7 +5,6 @@ import Link from 'next/link';
 import styles from './page.module.css';
 import layout from './homepage.js';
 import animations from './animations.css'
-import { Bold } from 'react-feather';
 
 export default function Page() {
   return (
