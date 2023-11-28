@@ -103,7 +103,7 @@ export default function Phasmophobia() {
           <div id='flex'>
             <div className={style.item}><Link href="/"><p>Home</p></Link></div>
             <div className={style.item}><Link href="/about"><p>&nbsp;About Me</p></Link></div>
-            <div className={style.item}><p>Next</p></div>
+            <div className={style.item}><Link href="/animalcrossing"><p>Next</p></Link></div>
           </div>
         </div>
         <footer>
