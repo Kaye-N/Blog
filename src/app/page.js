@@ -123,36 +123,35 @@ export default function Page() {
             </Link>
           </div>
           <div className="col-md-4">
-          <Link href='/musedash'>
-            <div className={styles.box}>
-              <Image
-                src="/musedash.jpg"
-                width={239}
-                height={238}
-                alt='Muse Dash '
-              />
-            </div>
-            <div className={styles.bottomC} id='game'>
-              <h4>Muse&nbsp;Dash</h4>
-            </div>
+            <Link href='/musedash'>
+              <div className={styles.box}>
+                <Image
+                  src="/musedash.jpg"
+                  width={239}
+                  height={238}
+                  alt='Muse Dash '
+                />
+              </div>
+              <div className={styles.bottomC} id='game'>
+                <h4>Muse&nbsp;Dash</h4>
+              </div>
             </Link>
           </div>
         </div>
         <footer>
-          <div id='bottom-container'>
-            <div id='content-wrap'>
-              <div className="container p-4">
-                <div className="row">
-                  <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5>Welcome to the bottom of the page</h5>
-                    <p>
-                      <Link href="/">Home</Link> <Link href="/about">About Me</Link>
-                    </p>
-                  </div>
-                </div>
+          <div id='footerBG'>
+            <div className="container p-4">
+              <div className="row">
                 <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-                  <h5 className="text-uppercase">//</h5>
+                  <h5 className="text-uppercase">If you want to know more about me...</h5>
+                  <p>
+                    <Link href="/">Home</Link>
+                    <Link href="/about">&nbsp;About Me</Link>
+                  </p>
                 </div>
+              </div>
+              <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 className="text-uppercase">//</h5>
               </div>
             </div>
           </div>
