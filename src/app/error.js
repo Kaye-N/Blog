@@ -35,6 +35,9 @@ function catAPI() {
           }
         }
       }
+      else{
+        console.log('ready')
+      }
     }
     checker();
   }, [])};
