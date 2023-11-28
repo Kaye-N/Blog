@@ -75,13 +75,35 @@ export default function MuseDash() {
                 <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
                   <h5 className="text-uppercase">If you want to know more about me...</h5>
                   <p>
-                    <Link href="/">Home</Link>
-                    <Link href="/about">&nbsp;About Me</Link>
+                    <Link href='https://discord.com/'>
+                      <Image
+                        src='/discordicon.svg'
+                        width={50}
+                        height={35}
+                        alt='discord icon'
+                      />
+                    </Link>
+                    <Link href='https://www.instagram.com/'>
+                      <Image
+                        src='/instagramicon.svg'
+                        width={50}
+                        height={35}
+                        alt='instagram icon'
+                      />
+                    </Link>
+                    <Link href='https://twitter.com/home'>
+                      <Image
+                        src='/twittericon.svg'
+                        width={50}
+                        height={35}
+                        alt='twitter icon'
+                      />
+                    </Link>
                   </p>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <h5 className="text-uppercase">//</h5>
+                <h5 className="text-uppercase">placeholderemail@gmail.com</h5>
               </div>
             </div>
           </div>
